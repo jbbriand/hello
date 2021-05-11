@@ -13,7 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: Docker
     - name: Build the Docker image
       run: docker build -f hello
            docker run -it -p 90:80 simpleweb
