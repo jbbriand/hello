@@ -14,5 +14,5 @@ jobs:
 
     steps:
     - name: Build the Docker image
-      run: docker build -f hello
+      run: docker build \hello
            docker run -it -p 90:80 simpleweb
